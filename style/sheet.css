@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=New+Rocker');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+#textarea, #searchbutton1, #searchbutton2{
+    display: none;
+}
+#footer{
+    font-family: 'New Rocker', cursive;
+    font-size: 3.5em;
+    text-align: center;
+}
+h2, #form1, #form2, #form3{
+    font-family: 'Acme', sans-serif;
+    font-size:1.5em;
+}
+h2{
+    display: inline-block;
+}
+h2:hover{
+    border-bottom: 10px solid yellow;
+}
+#selector{
+    text-align: center;
+}
+#textarea{
+    width: 50%;
+    padding: 1% 1%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1em;
+}
+#textarea:focus{
+    border: 2px solid red;
+}
+button{
+    font-family: 'Acme', sans-serif;
+    font-size: 1cm;
+    background-color:white;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 25%;
+    padding: 1%;
+    margin: auto;
+    display: block;
+}
